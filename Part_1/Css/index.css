@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Add your styles below */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 30px 50px;
+}
+#part{
+  display: flex;
+  gap:50px;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+#box1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+#box2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+#box3 {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+}
+#box4 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+#box5 {
+  width: 100px;
+  height: 100px;
+  background-color: darkgreen;
+}
